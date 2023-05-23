@@ -9,7 +9,6 @@ public class Pessoa extends EntidadeAbstrata<Long>{
     private String nome;
     private String rg;
     private String cpf;
-    private String email;
-    
+    private String email;    
 }
 

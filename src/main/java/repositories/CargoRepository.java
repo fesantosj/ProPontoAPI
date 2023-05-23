@@ -2,10 +2,9 @@ package repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import models.Pessoa;
+import models.Cargo;
 
 @Repository
-public interface PessoaRepositoy extends JpaRepository<Pessoa, Long>{
+public interface CargoRepository extends JpaRepository<Cargo, Long>{    
     
 }

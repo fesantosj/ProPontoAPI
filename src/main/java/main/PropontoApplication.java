@@ -8,9 +8,9 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@EntityScan(basePackages = "model")
-@EnableJpaRepositories("repositorie")
-@ComponentScan(basePackages = {"controller, service"})
+@EntityScan(basePackages = "models")
+@EnableJpaRepositories("repositories")
+@ComponentScan(basePackages = {"controllers, services"})
 @SpringBootApplication
 public class PropontoApplication {
 	public static void main(String[] args) {
